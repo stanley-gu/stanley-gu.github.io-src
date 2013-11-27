@@ -1,9 +1,9 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
-    "name": "The Wintersmith's blog",
-    "owner": "Someone",
-    "description": "Ramblings of an immor(t)al demigod"
+    "url": "http://stanleygu.com",
+    "name": "Stanley Gu",
+    "owner": "Stanley Gu",
+    "description": "Graduate Student, Software Developer, JavaScript Enthusiast"
   },
   "plugins": [
     "./plugins/paginator.coffee"
@@ -22,5 +22,6 @@
   },
   "paginator": {
     "perPage": 3
-  }
+  },
+  "output": '..'
 }
