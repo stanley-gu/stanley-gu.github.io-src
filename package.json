@@ -4,5 +4,12 @@
     "underscore": "1.4.x",
     "typogr": "0.5.x"
   },
+  "devDependencies": {
+  	"wintersmith": "2.0.8"
+  },
+  "scripts": {
+  	"start": "wintersmith build",
+  	"test": "wintersmith preview"
+  },
   "repository": "none"
 }
